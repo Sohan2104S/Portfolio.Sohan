@@ -1,0 +1,379 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#mainBody{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#3c86df,#929380);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .nameBox{
+    width: 30%;
+    border: 3px solid white;
+} */
+
+.nameBox>h1{
+    color: rgb(255, 255, 255);
+    font-size: 180px;
+}
+
+.nameBox>p{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+
+nav{
+    width: 10vw;
+    height: 60vh;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    /* background: black; */
+    /* border: 2px solid; */
+    border-radius: 10px;
+}
+
+nav>div{
+    width: 4vw;
+    height: 4vw;
+    background: black;
+    border: 1px solid #a5d065;
+    border-radius: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav>div>a>i{
+    color: white;
+    font-size: 30px;
+}
+.aboutSection{
+    width: 100%;
+    height: 100vh;
+ 
+    background-image: linear-gradient(#929380,#3c86df);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutSection>main{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid; */
+    align-items: center;
+}
+.aboutSection>main>article{
+    width: 50%;
+    height: 100%;
+    /* border: 3px solid gray; */
+    background-color: rgba(0, 0, 0, 0.191);
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.about{
+    width: 110%;
+    height: 80%;
+    /* background-color: #e1eef1; */
+    display: flex;
+}
+.aboutArticle{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 50px;
+    gap: 30px;
+    color: white;
+}
+.about>div{
+    width: 50%;
+    height: 100%;
+    /* border: 3px solid; */
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.158);
+    border-radius: 30px;
+    margin: 10px;
+    height: 300px;
+}
+.about>li{
+    padding: 10px;
+    
+
+}
+.about>ul{
+    padding-top: 50px;
+    
+}
+.aboutSection h1{
+    font-size: 50px;
+    
+}
+.projects{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#3c86df,#929380);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects>main{
+    width: 80%;
+    height: 90%;
+    /* border: 3px solid; */
+}
+
+.projects>main>h1{
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    color: beige;
+    padding: 30px;
+}
+
+.projects>main>article{
+    width: 100%;
+    height: 80%;
+    background: rgba(148, 147, 165, 0.344);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap ;
+    border-radius: 20px;
+}
+
+.projects>main>article>div{
+    width: 45%;
+    height: 45%;
+    /* border: 3px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #00000031;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.projects>main>article>div>h1{
+    font-size: 27px;
+}
+
+.projects>main>article>div>p{
+    font-size: 17px;
+}
+
+.achievements{
+    width: 100%;
+    height:100vh ;
+    background-image: linear-gradient(#929380,#3c86df);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.achievements>main{
+    width: 80%;
+    height: 90%;
+    /* border: 3px solid; */
+}
+
+.achievements>main>h1{
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    color: beige;
+    padding: 30px;
+}
+
+.achievements>main>article{
+    width: 100%;
+    height: 80%;
+    background: rgba(148, 147, 165, 0.344);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap ;
+    border-radius: 20px;
+}
+
+.achievements>main>article>div{
+    width: 45%;
+    height: 47%;
+    /* border: 3px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #00000031;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.achievements>main>article>div>h1{
+    font-size: 25px;
+}
+
+.achievements>main>article>div>p{
+    font-size: 17px;
+}
+
+.achievements>main>article>div>h3{
+    font-size: 13px;
+}
+
+.experience{
+    width: 100%;
+    height:100vh ;
+    background-image: linear-gradient(#3c86df,#929380);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    width: 100%;
+    height:100vh ;
+    background-image: linear-gradient(#929380,#3c86df);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.achievements>main,.contact>main,.experience>main{
+    width: 80%;
+    height: 90%;
+    /* border: 3px solid; */
+}
+
+.experience>main>h1{
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(210, 210, 198);
+    padding: 30px;
+}
+
+.experience>main>article{
+    width: 100%;
+    height: 80%;
+    background: rgba(148, 147, 165, 0.344);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.experience>main>article>h3{
+    font-size: 30px;
+}
+
+.experience>main>article>p{
+    font-size: 20px;
+}
+
+.contact>main>h1{
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    color: beige;
+    padding: 30px;
+}
+
+.contact>main>article{
+    width: 100%;
+    height: 80%;
+    background: rgba(69, 68, 77, 0.196);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap ;
+    border-radius: 20px;
+}
+
+.info, .contactForm{
+    width: 45%;
+    height: 85%;
+    background: rgba(255, 255, 255, 0.215);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.contact>main>article>div>h1{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(72, 72, 59);
+    padding: 30px;
+}
+
+.info p{
+    font-size: 20px;
+    color:rgb(72, 85, 137);
+    padding: 10px;
+}
+
+.info a{
+    /* color:rgb(72, 85, 137); */
+
+}
+
+.allLinks{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+}
+.allLinks a{
+    padding-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+input, textarea{
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: #00000039;
+    border-radius: 10px;
+}
+
+textarea{
+    height: 200px;
+}
+
+form>a{
+    display: inline-block;
+    color: #000000;
+    padding: 20px;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    background: gray;
+    border-radius: 20px;
+    font-size: 30px;
+}
